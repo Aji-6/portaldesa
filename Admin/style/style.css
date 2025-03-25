@@ -1,0 +1,20 @@
+table {
+  width: 80%;
+  margin: 2rem;
+
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+button {
+  margin: 10px;
+  padding: 8px;
+  cursor: pointer;
+}
+.grafik {
+  margin-top: 2rem;
+}

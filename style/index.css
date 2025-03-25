@@ -1,0 +1,119 @@
+.menu-section {
+  padding: 0 2rem;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 2rem;
+  height: 10rem;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.menu-section a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  color: black;
+}
+
+
+/* desa dan ucapan */
+.ucapan,
+.desa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: var(--primary);
+}
+.ucapan .content,
+.desa .content {
+  width: 50%;
+  padding: 6rem;
+  color: white;
+  font-size: 18px;
+}
+
+.ucapan .img,
+.desa .img {
+  width: 50%;
+  height: 500px;
+}
+.ucapan img,
+.desa img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* berita home */
+.berita-home {
+  padding: 2rem;
+  margin: 8rem 0;
+}
+
+.desa h1,
+.berita-home h1,
+.galeri h1,
+.ucapan h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.desa p,
+.berita-home p,
+.galeri p,
+.ucapan p {
+  font-size: 18px;
+}
+
+.berita-all {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 1500px;
+  margin: 32px auto;
+}
+
+.berita-all .card {
+  min-width: 400px;
+  border: transparent;
+  border-radius: 1rem;
+  overflow: hidden;
+  flex: 1;
+  background-color: white;
+  /* box-shadow: 2px 4px 10px; */
+  box-shadow: 0px 10px 4px -3px rgba(0, 0, 0, 0.1);
+}
+
+.berita-all img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.berita-all .content {
+  margin-top: 12px;
+  padding: 0px 16px 16px;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.galeri {
+  width: 100%;
+  margin-bottom: 6rem;
+}
+
+.galeri div {
+  display: flex;
+  gap: 4px;
+  width: 100%;
+  height: 400px;
+  overflow-x: scroll;
+}
